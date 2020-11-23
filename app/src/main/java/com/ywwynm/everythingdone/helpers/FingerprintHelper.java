@@ -14,8 +14,8 @@ import android.security.keystore.KeyProperties;
 
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
-import com.ywwynm.everythingdone.fragments.FingerprintDialogFragment;
-import com.ywwynm.everythingdone.fragments.PatternLockDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.FingerprintDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.PatternLockDialogFragment;
 import com.ywwynm.everythingdone.utils.DeviceUtil;
 
 import java.io.IOException;

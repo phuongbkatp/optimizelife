@@ -7,7 +7,7 @@ import android.support.v4.util.Pair;
 
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
-import com.ywwynm.everythingdone.activities.DoingActivity;
+import com.ywwynm.everythingdone.view.activities.DoingActivity;
 import com.ywwynm.everythingdone.helpers.RemoteActionHelper;
 import com.ywwynm.everythingdone.model.DoingRecord;
 import com.ywwynm.everythingdone.model.Thing;

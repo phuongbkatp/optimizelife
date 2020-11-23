@@ -11,7 +11,7 @@ import java.util.HashMap;
  * Created by ywwynm on 2017/1/17.
  * Store settings that will be seen frequently during app lifecycle, which will also influence
  * ui very constantly. Usually, these settings belong to settings for UI that can be seen under
- * ui category in {@link com.ywwynm.everythingdone.activities.SettingsActivity}
+ * ui category in {@link com.ywwynm.everythingdone.view.activities.SettingsActivity}
  */
 public class FrequentSettings {
 

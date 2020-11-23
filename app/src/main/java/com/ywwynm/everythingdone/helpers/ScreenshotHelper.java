@@ -22,12 +22,12 @@ import android.widget.TextView;
 
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.adapters.AudioAttachmentAdapter;
-import com.ywwynm.everythingdone.adapters.CheckListAdapter;
-import com.ywwynm.everythingdone.adapters.ImageAttachmentAdapter;
+import com.ywwynm.everythingdone.view.adapters.AudioAttachmentAdapter;
+import com.ywwynm.everythingdone.view.adapters.CheckListAdapter;
+import com.ywwynm.everythingdone.view.adapters.ImageAttachmentAdapter;
 import com.ywwynm.everythingdone.database.HabitDAO;
 import com.ywwynm.everythingdone.database.ReminderDAO;
-import com.ywwynm.everythingdone.fragments.LoadingDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.LoadingDialogFragment;
 import com.ywwynm.everythingdone.model.Habit;
 import com.ywwynm.everythingdone.model.Reminder;
 import com.ywwynm.everythingdone.model.ReminderHabitParams;

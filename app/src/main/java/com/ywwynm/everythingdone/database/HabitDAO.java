@@ -460,7 +460,7 @@ public class HabitDAO {
              * it seems that this cannot happen but it did happen according to a user log.
              * I've tried to solve this problem by ensuring old habit is deleted successfully
              * when updating a habit in DetailActivity.
-             * See {@link com.ywwynm.everythingdone.activities.DetailActivity#setOrUpdateHabit(boolean, boolean, boolean)}
+             * See {@link com.ywwynm.everythingdone.view.activities.DetailActivity#setOrUpdateHabit(boolean, boolean, boolean)}
              * and {@link #deleteHabit(long)} for more details.
              * Maybe I didn't actually solve it. Let's see if there are more logs about that.
              */

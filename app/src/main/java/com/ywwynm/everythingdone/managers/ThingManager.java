@@ -62,7 +62,7 @@ public class ThingManager {
     /**
      * Used to ensure that id/location of thing in {@link mThings} is same as that in database.
      *
-     * Every time {@link com.ywwynm.everythingdone.activities.DetailActivity}
+     * Every time {@link com.ywwynm.everythingdone.view.activities.DetailActivity}
      * creates a new thing and inserts it into the database, we needs to do the job
      * to {@link mThings}, too. So keeping their latest joined ones as the same is essential,
      * especially for thing's ID/location.
@@ -203,8 +203,8 @@ public class ThingManager {
      * @param handleNotifyEmpty whether we should handle deletion/creation of NOTIFY_EMPTYs.
      * @return {@code true} if we found a need-to-delete NOTIFY_EMPTY under current
      *          limit({@link mLimit}) and we deleted it indeed, which means
-     *          {@link com.ywwynm.everythingdone.activities.ThingsActivity} need to call
-     *          {@link com.ywwynm.everythingdone.adapters.ThingsAdapter#notifyItemChanged(int)}.
+     *          {@link com.ywwynm.everythingdone.view.activities.ThingsActivity} need to call
+     *          {@link com.ywwynm.everythingdone.view.adapters.ThingsAdapter#notifyItemChanged(int)}.
      *          {@code false} otherwise and should call ThingsAdapter#notifyItemInserted(1).
      */
     public boolean create(final Thing thingToCreate, boolean handleNotifyEmpty, boolean addToThingsNow) {
@@ -249,8 +249,8 @@ public class ThingManager {
      * @param updatedThing thing whose content is updated.
      * @param position position {@param updatedThing}'s position in {@link mThings}.
      * @param handleNotifyEmpty whether we should handle deletion/creation of NOTIFY_EMPTYs.
-     * @return 0 if update really happens and {@link com.ywwynm.everythingdone.activities.ThingsActivity}
-     *         should call {@link com.ywwynm.everythingdone.adapters.ThingsAdapter#notifyItemChanged(int)}.
+     * @return 0 if update really happens and {@link com.ywwynm.everythingdone.view.activities.ThingsActivity}
+     *         should call {@link com.ywwynm.everythingdone.view.adapters.ThingsAdapter#notifyItemChanged(int)}.
      *
      *         1 if we updated a thing to a new type and created a NOTIFY_EMPTY for current limit
      *         ({@link mLimit}) so that ThingsActivity should call ThingsAdapter#notifyItemChanged(1).
@@ -316,8 +316,8 @@ public class ThingManager {
      * @param toUndo whether calling this method is to undo update or not.
      * @param handleNotifyEmpty whether we should handle deletion/creation of NOTIFY_EMPTYs.
      * @return {@code true} if a NOTIFY_EMPTY is deleted/created for current limit({@link mLimit})
-     *          thus {@link com.ywwynm.everythingdone.activities.ThingsActivity} should call
-     *          {@link com.ywwynm.everythingdone.adapters.ThingsAdapter#notifyItemChanged(int)}.
+     *          thus {@link com.ywwynm.everythingdone.view.activities.ThingsActivity} should call
+     *          {@link com.ywwynm.everythingdone.view.adapters.ThingsAdapter#notifyItemChanged(int)}.
      *          {@code false} otherwise, which should call ThingsAdapter#notifyItemInserted(int)
      *          when {@param toUndo} is true or ThingsAdapter#notifyItemRemoved(int) when
      *          {@param toUndo} is false.

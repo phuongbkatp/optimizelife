@@ -16,11 +16,11 @@ import android.widget.RelativeLayout;
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.adapters.ThingsAdapter;
+import com.ywwynm.everythingdone.view.adapters.ThingsAdapter;
 import com.ywwynm.everythingdone.model.Thing;
 import com.ywwynm.everythingdone.utils.DisplayUtil;
-import com.ywwynm.everythingdone.views.ActivityHeader;
-import com.ywwynm.everythingdone.views.FloatingActionButton;
+import com.ywwynm.everythingdone.view.views.ActivityHeader;
+import com.ywwynm.everythingdone.view.views.FloatingActionButton;
 
 import java.util.List;
 

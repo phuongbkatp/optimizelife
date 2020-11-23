@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.fragments.AlertDialogFragment;
-import com.ywwynm.everythingdone.fragments.LoadingDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.AlertDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.LoadingDialogFragment;
 import com.ywwynm.everythingdone.model.Thing;
 import com.ywwynm.everythingdone.utils.FileUtil;
 import com.ywwynm.everythingdone.utils.LocaleUtil;

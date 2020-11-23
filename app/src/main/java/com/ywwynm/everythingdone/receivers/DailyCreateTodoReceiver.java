@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.ywwynm.everythingdone.App;
-import com.ywwynm.everythingdone.activities.DetailActivity;
+import com.ywwynm.everythingdone.view.activities.DetailActivity;
 
 /**
  * Created by ywwynm on 2017/4/23.

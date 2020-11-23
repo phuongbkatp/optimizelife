@@ -2,7 +2,7 @@ package com.ywwynm.everythingdone.helpers;
 
 import android.app.Activity;
 
-import com.ywwynm.everythingdone.fragments.PatternLockDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.PatternLockDialogFragment;
 import com.ywwynm.everythingdone.utils.DeviceUtil;
 
 /**

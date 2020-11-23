@@ -10,16 +10,14 @@ import android.widget.Toast;
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.activities.AuthenticationActivity;
-import com.ywwynm.everythingdone.activities.NoticeableNotificationActivity;
-import com.ywwynm.everythingdone.activities.StartDoingActivity;
+import com.ywwynm.everythingdone.view.activities.AuthenticationActivity;
+import com.ywwynm.everythingdone.view.activities.NoticeableNotificationActivity;
+import com.ywwynm.everythingdone.view.activities.StartDoingActivity;
 import com.ywwynm.everythingdone.database.HabitDAO;
 import com.ywwynm.everythingdone.helpers.RemoteActionHelper;
 import com.ywwynm.everythingdone.model.HabitReminder;
 import com.ywwynm.everythingdone.model.Thing;
 import com.ywwynm.everythingdone.services.DoingService;
-
-import static android.R.attr.id;
 
 public class HabitNotificationActionReceiver extends BroadcastReceiver {
 

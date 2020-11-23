@@ -3,7 +3,7 @@ package com.ywwynm.everythingdone.permission;
 import android.widget.Toast;
 
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.activities.EverythingDoneBaseActivity;
+import com.ywwynm.everythingdone.view.activities.EverythingDoneBaseActivity;
 
 /**
  * Created by ywwynm on 2016/5/21.

@@ -25,7 +25,7 @@
         <meta-data android:name="android.max_aspect" android:value="2.1" />
 
         <activity
-            android:name=".activities.ThingsActivity"
+            android:name=".view.activities.ThingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/everythingdone"
             android:launchMode="singleTask"
@@ -44,7 +44,7 @@
         </activity>
 
         <activity
-            android:name=".activities.DetailActivity"
+            android:name=".view.activities.DetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/thing"
             android:screenOrientation="user"
@@ -72,7 +72,7 @@
         </activity>
 
         <activity
-            android:name=".activities.ImageViewerActivity"
+            android:name=".view.activities.ImageViewerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/image_or_video_attachment"
             android:theme="@style/EverythingDoneTheme.ImageViewer"/>
@@ -120,13 +120,13 @@
         </receiver>
 
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name=".view.activities.SettingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/EverythingDoneTheme.Settings"/>
 
         <activity
-            android:name=".activities.AboutActivity"
+            android:name=".view.activities.AboutActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_about"
             android:theme="@style/EverythingDoneTheme.About"/>
@@ -136,7 +136,7 @@
             android:enabled="true"/>
 
         <activity
-            android:name=".activities.StatisticActivity"
+            android:name=".view.activities.StatisticActivity"
             android:label="@string/title_activity_statistic"
             android:screenOrientation="portrait"
             android:theme="@style/EverythingDoneTheme.Statistic"/>
@@ -160,13 +160,13 @@
             android:enabled="true"/>
 
         <activity
-            android:name=".activities.AuthenticationActivity"
+            android:name=".view.activities.AuthenticationActivity"
             android:taskAffinity="com.ywwynm.everythingdone.task.authentication"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent"/>
 
         <activity
-            android:name=".activities.HelpActivity"
+            android:name=".view.activities.HelpActivity"
             android:label="@string/help"
             android:theme="@style/EverythingDoneTheme.Help"/>
 
@@ -356,14 +356,14 @@
         </provider>
 
         <activity
-            android:name=".activities.DelayReminderActivity"
+            android:name=".view.activities.DelayReminderActivity"
             android:taskAffinity="com.ywwynm.everythingdone.task.delay_reminder"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
         </activity>
 
         <activity
-            android:name=".activities.ShortcutActivity"
+            android:name=".view.activities.ShortcutActivity"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
             <intent-filter>
                 <action android:name="com.ywwynm.everythingdone.action.shortcut.create"/>
@@ -374,14 +374,14 @@
         </activity>
 
         <activity
-            android:name=".activities.StartDoingActivity"
+            android:name=".view.activities.StartDoingActivity"
             android:taskAffinity="com.ywwynm.everythingdone.task.doing"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
         </activity>
 
         <activity
-            android:name=".activities.DoingActivity"
+            android:name=".view.activities.DoingActivity"
             android:label="@string/title_activity_doing"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
@@ -401,7 +401,7 @@
         </receiver>
 
         <activity
-            android:name=".activities.NoticeableNotificationActivity"
+            android:name=".view.activities.NoticeableNotificationActivity"
             android:taskAffinity="com.ywwynm.everythingdone.task.noticeable_notification"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.NoticeableNotification">

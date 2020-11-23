@@ -10,7 +10,7 @@
         <intent
             android:action="com.ywwynm.everythingdone.action.shortcut.create"
             android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:targetClass="com.ywwynm.everythingdone.view.activities.ShortcutActivity" />
     </shortcut>
 
     <shortcut
@@ -22,7 +22,7 @@
         <intent
             android:action="com.ywwynm.everythingdone.action.shortcut.check_upcoming"
             android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:targetClass="com.ywwynm.everythingdone.view.activities.ShortcutActivity" />
     </shortcut>
 
     <shortcut
@@ -34,7 +34,7 @@
         <intent
             android:action="com.ywwynm.everythingdone.action.shortcut.check_sticky"
             android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:targetClass="com.ywwynm.everythingdone.view.activities.ShortcutActivity" />
     </shortcut>
 
 </shortcuts>

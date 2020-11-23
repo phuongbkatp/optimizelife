@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.activities.NoticeableNotificationActivity;
+import com.ywwynm.everythingdone.view.activities.NoticeableNotificationActivity;
 import com.ywwynm.everythingdone.database.ReminderDAO;
 import com.ywwynm.everythingdone.helpers.RemoteActionHelper;
 import com.ywwynm.everythingdone.helpers.ThingDoingHelper;

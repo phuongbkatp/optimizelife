@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import com.ywwynm.everythingdone.App;
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.fragments.AttachmentInfoDialogFragment;
+import com.ywwynm.everythingdone.view.fragments.AttachmentInfoDialogFragment;
 import com.ywwynm.everythingdone.utils.DateTimeUtil;
 import com.ywwynm.everythingdone.utils.DeviceUtil;
 import com.ywwynm.everythingdone.utils.DisplayUtil;

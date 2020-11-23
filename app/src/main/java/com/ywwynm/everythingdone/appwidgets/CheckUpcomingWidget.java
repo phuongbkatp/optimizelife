@@ -9,7 +9,7 @@ import android.widget.RemoteViews;
 
 import com.ywwynm.everythingdone.Def;
 import com.ywwynm.everythingdone.R;
-import com.ywwynm.everythingdone.activities.ShortcutActivity;
+import com.ywwynm.everythingdone.view.activities.ShortcutActivity;
 
 /**
  * Created by ywwynm on 2016/10/24.

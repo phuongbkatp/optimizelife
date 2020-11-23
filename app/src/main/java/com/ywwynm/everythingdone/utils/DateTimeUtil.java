@@ -453,8 +453,8 @@ public class DateTimeUtil {
 
     /**
      * Get datetime string for {@link com.ywwynm.everythingdone.model.Habit}. For the time being,
-     * this method will be called only in {@link com.ywwynm.everythingdone.activities.DetailActivity}
-     * and {@link com.ywwynm.everythingdone.fragments.DateTimeDialogFragment}.
+     * this method will be called only in {@link com.ywwynm.everythingdone.view.activities.DetailActivity}
+     * and {@link com.ywwynm.everythingdone.view.fragments.DateTimeDialogFragment}.
      *
      * This method will return a string in form of:
      * 1. For a daily habit: at 6:30, 12:00 every day; 每天6:30, 12:00
