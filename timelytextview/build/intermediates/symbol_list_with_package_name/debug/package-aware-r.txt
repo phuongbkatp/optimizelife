@@ -1,0 +1,4 @@
+com.github.adnansm.timelytextview
+attr lineWidth
+attr textColor
+styleable TimelyView lineWidth textColor

@@ -17,6 +17,4 @@
     package="com.mattprecious.swirl"
     android:versionCode="1">
 
-    <uses-sdk android:minSdkVersion="16"/>
-
 </manifest>

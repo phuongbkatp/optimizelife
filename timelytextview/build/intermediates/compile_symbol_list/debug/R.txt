@@ -1,0 +1,5 @@
+int attr lineWidth 0x0
+int attr textColor 0x0
+int[] styleable TimelyView { 0x0, 0x0 }
+int styleable TimelyView_lineWidth 0
+int styleable TimelyView_textColor 1
